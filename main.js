@@ -1,4 +1,5 @@
       
+      
 Webcam.attach( '#camera' );
 
 camera = document.getElementById("camera");
