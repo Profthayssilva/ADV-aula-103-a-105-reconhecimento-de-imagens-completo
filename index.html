@@ -18,14 +18,11 @@
   <div class="container">
     
     <center>
-      <!-- Adicione uma tag h3 para conter o heading (cabeçalho) do website -->
       <h3 class="btn btn-default heading">IDENTIFICADOR DE IMAGENS</h3>
       <br><br>
 
       <p style="font-size: 22px;">O modelo foi treinado para identificar estes objetos: </p>
-      <!-- escreva uma tag b e forneça a ela class=”nameOfObjects”. Dentro dessa tag b
-escreva os nomes dos objetos, um a um, que você utilizou no modelo, e forneça uma tag
-hr para separar cada um -->
+
       <b class="name_of_objects">
         Relógio
         <hr>
@@ -38,25 +35,16 @@ hr para separar cada um -->
       </b>
 
       <label>Visualização da webcom - </label>
-      <!-- adicione uma div para conter a visualização em tempo real da webcam -->
       <div id="camera"></div>
       <br><br>
-      <!-- adicione uma div que será utilizada para conter a imagem capturada pela webcam -->
       <div id="result"></div>
       <br><br>
-      <!-- adicione um button para capturar uma imagem. -->
       <button onclick="take_snapshot();" class="btn btn-info">Capturar Imagem</button>
       <br><br>
-      <!-- adicione um button que compare a imagem capturada com a do modelo. -->
       <button onclick="check();" class="btn btn-success">Identificar Imagem</button>
       <br><br>
-      <!-- adicione uma tag span que será utilizada para conter o nome do objeto, o qual
-      obteremos após o modelo treinado identificar o objeto a partir da comparação da imagem
-      capturada com a do modelo. -->
+
       <p style="font-size: 22px;">Objeto : <span id="result_object_name"></span> </p>
-      <!-- adicione uma tag span que será utilizada para conter a precisão do nome do objeto,
-que obtemos após o modelo treinado identificar o objeto a partir da comparação da imagem
-capturada com a do modelo. -->
       <p style="font-size: 22px;">Precisão : <span id="result_object_accuracy"></span> </p>
     </center>
 
@@ -65,5 +53,3 @@ capturada com a do modelo. -->
 
   </body>
 </html>
-
- 
